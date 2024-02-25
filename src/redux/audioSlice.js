@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from 'axios';
 
-const api = 'http://localhost:5001';
+const api = 'https://recorder-back.onrender.com/';
 
 export const AddAudio = createAsyncThunk('audio/AddAudio', async (audio, thunkAPI) => {
     try {
